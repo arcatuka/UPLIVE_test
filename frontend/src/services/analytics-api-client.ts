@@ -13,8 +13,7 @@ interface AnalyticsSummary {
 }
 
 // Configuration for your NestJS backend
-const API_BASE_URL = 'backend-eta-two-92.vercel.app/analytics'; // Ensure this matches your backend's URL and port
-
+const API_BASE_URL = 'https://backend-eta-two-92.vercel.app/analytics';
 // Axios instance with base URL
 const api = axios.create({
   baseURL: API_BASE_URL,
