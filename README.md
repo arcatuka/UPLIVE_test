@@ -1,3 +1,11 @@
+# UPLIVE_test
+
+## Screenshots
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 ## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
@@ -13,8 +21,8 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/my-fullstack-analytics.git
-    cd my-fullstack-analytics
+    git clone https://github.com/arcatuka/UPLIVE_test.git
+    cd UPLIVE_test
     ```
 
 2.  **Backend Setup:**
@@ -78,5 +86,3 @@ Before you begin, ensure you have the following installed:
 ## License
 
 [Specify your license, e.g., "MIT License"]
-
----
