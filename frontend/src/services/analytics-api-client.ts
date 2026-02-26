@@ -20,7 +20,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  withCredentials: true, // Important if your backend uses 'credentials: true' for CORS
+  withCredentials: false, // Important if your backend uses 'credentials: true' for CORS
 });
 
 /**
