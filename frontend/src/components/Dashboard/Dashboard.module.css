@@ -1,0 +1,111 @@
+/* frontend/src/components/Dashboard/Dashboard.module.css */
+.dashboard {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+}
+
+.dashboard h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.globalLoading,
+.globalError {
+    margin: 20px auto;
+    width: fit-content;
+    max-width: 90%;
+}
+
+/* Filter Container - Moved to be closer to the table */
+.filterContainer {
+    background-color: #eaf6ff;
+    border: 1px solid #cceeff;
+    border-radius: 8px;
+    padding: 20px;
+    /* Removed margin-bottom here as it will be inside the grid */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    /* Add margin-bottom here to separate from the table */
+}
+
+.filterContainer h3 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px solid #b3e0ff;
+    padding-bottom: 10px;
+}
+
+.filterGroup {
+    flex: 1;
+    min-width: 200px;
+}
+
+.filterGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.filterGroup input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #aaddff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+.filterGroup input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+/* --- NEW CSS GRID CLASS --- */
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal columns */
+    gap: 30px;
+    /* Gap between columns */
+    margin-bottom: 30px;
+    /* Space below the grid */
+}
+
+/* Responsive stacking for smaller screens */
+@media (max-width: 768px) {
+    .contentGrid {
+        grid-template-columns: 1fr;
+        /* Stack into a single column */
+    }
+}
+
+.chartContainer {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.topSection {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* --- END NEW CSS GRID CLASS --- */
