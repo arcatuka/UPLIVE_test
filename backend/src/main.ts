@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // --- CORS Configuration ---
   app.enableCors({
-    origin: 'http://localhost:5173', // Replace with your frontend's actual origin
+    origin: 'https://frontend-mu-three-92.vercel.app/', // Replace with your frontend's actual origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // If you plan to send cookies/authentication headers
   });
