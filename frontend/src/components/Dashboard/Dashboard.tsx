@@ -1,6 +1,6 @@
 // frontend/src/components/Dashboard/Dashboard.tsx
 
-import React, { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import type { AnalyticsEntry } from '../../common/interfaces/analytics-entry.interface';
 import AnalyticsTable from '../AnalyticsTable/AnalyticsTable';
 import AnalyticsForm from '../AnalyticsForm/AnalyticsForm';

@@ -1,6 +1,5 @@
 // frontend/src/App.tsx
 
-import React from 'react';
 import Dashboard from './components/Dashboard/Dashboard';
 import './App.css'; // Keep or remove global styles as needed
 
